@@ -1,0 +1,38 @@
+
+
+#iframe{
+    width: 600px;
+    height: 300px;
+}
+
+body{
+    background-position: center;
+}
+
+header{
+    font-size: 3rem;
+}
+
+.easy{
+    grid-template-columns: repeat(4,20%);
+    grid-auto-rows: 25%;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.medium{
+    grid-template-columns: repeat(4,15%);
+    grid-auto-rows: 20%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.hard{
+    grid-template-columns: repeat(8,10%);
+    grid-auto-rows: 30%;
+    margin: 0 auto;
+    width: 80%;
+}
+#formLevel{
+    width:400px;
+}

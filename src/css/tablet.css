@@ -1,0 +1,19 @@
+#iframe{
+    width: 500px;
+    height: 300px;
+}
+.easy{
+    grid-template-columns: repeat(4,20%);
+    grid-auto-rows: 25%;
+
+}
+.medium{
+    grid-template-columns: repeat(4,15%);
+    grid-auto-rows: 20%;
+
+}
+.hard{
+    grid-template-columns: repeat(8,10%);
+    grid-auto-rows: 25%;
+
+}

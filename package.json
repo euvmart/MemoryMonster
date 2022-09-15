@@ -1,0 +1,22 @@
+{
+  "name": "memorymonster",
+  "version": "1.0.0",
+  "description": "A clasic memory game with pixels Monsters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euvmart/MemoryMonster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euvmart/MemoryMonster/issues"
+  },
+  "homepage": "https://github.com/euvmart/MemoryMonster#readme"
+  ,
+  "type": "module"
+}

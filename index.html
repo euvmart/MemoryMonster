@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"   href="./src/css/general.css">
+    <link rel="stylesheet"   href="./src/css/font-awesome.min.css">
+    <link rel="stylesheet" media=" (min-width: 320px ) and (max-width: 600px)" href="./src/css/mobile.css">
+    <link rel="stylesheet" media=" (min-width: 601px ) and (max-width: 1023px)"href="./src/css/tablet.css">
+    <link rel="stylesheet" media=" (min-width: 1024px)" href="./src/css/desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <title>Almost classic game!</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./src/assets/log.svg" alt="logo" srcset=""> MEMORY MONSTER</a>
+    </header>
+
+
+    <main>
+        <section class="ctn-grid-game" id="ctnGame">
+            <form id ="formLevel" enctype="multipart/form-data" >
+                <fieldset>
+                    <label for="">SELECT LEVEL</label>
+             
+                        <label class="labelLevel" for="easy">
+                            <input type="radio" name="level" id="easy" value="easy">
+                            Easy
+                            <i ></i>
+                        </label>
+               
+
+          
+                        <label class="labelLevel" for="medium">
+                            <input type="radio" name="level" id="medium" value="medium">
+                            Medium
+                            <i ></i>
+                        </label>
+              
+                       
+             
+                        <label class="labelLevel" for="hard">
+                            <input type="radio" name="level" id="hard" value="hard">
+                            Hard
+                            <i ></i>
+                        </label>
+                  
+                        
+                    </div>
+                    <button id="play" class="btn-play">PLAY</button>
+                </fieldset>
+                
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        
+            <p id="timePlay">00 : 00</p>
+            <i id="pause" class="fa fa-pause-circle-o fa-2x"></i>
+            <i id="continue" class="fa fa-play-circle-o fa-2x"></i>
+            <p id="fails">Fails : 0</p>
+        
+       
+    </footer>
+
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
